@@ -1,0 +1,32 @@
+#去申请 https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
+wx:
+  config:
+    appId: "wx8f880ca0232c8df6"
+    appSecret: "9053018bdab89e075e596a987b63600e"
+    #模板Id
+    templateId: "iPjWVBgEhAqsJLAixMH_GfGU7NLogOS61wAxAmPBlFs"
+    openidList:
+      - "o_O3d6tsUDjraxFpRVBZbggwdjEA"
+      - "o_O3d6rdEou2rt_U-wfceXi4NiQ0"
+
+message:
+  config:
+    birthday1: "03-27" #生日日期
+    birthday2: "10-08"
+    togetherDate: "2021-04-10" #填你们在一起的那天日期
+    message: "Have a happy day and love you"
+
+#去申请 https://tianqiapi.com/user/login
+weather:
+  config:
+    appid: "94293188"
+    appSecret: "AJ1PqQ1n"
+    city: "上海"
+#注册并购买第二档次，有券，直接白嫖 https://www.apispace.com/eolink/api/myjj/introduction
+ApiSpace:
+  enableDaily: true #【新增功能】  true：开启每日一句，false：则不开启
+  token: "cguxvoj31azwr6qvqbgqksy980tpnlk8"
+
+server:
+  port: 8080
+
